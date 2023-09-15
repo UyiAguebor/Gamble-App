@@ -1,0 +1,14 @@
+{
+  "resourceName": "userdb",
+  "tableName": "userdb",
+  "partitionKey": {
+    "fieldName": "username",
+    "fieldType": "string"
+  },
+  "sortKey": {
+    "fieldName": "points",
+    "fieldType": "number"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

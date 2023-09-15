@@ -1,0 +1,35 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-gambleapp-staging-175710-authRole",
+      "UnauthRoleArn": "arn:aws:iam::543933042118:role/amplify-gambleapp-staging-175710-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::543933042118:role/amplify-gambleapp-staging-175710-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-gambleapp-staging-175710-deployment",
+      "UnauthRoleName": "amplify-gambleapp-staging-175710-unauthRole",
+      "StackName": "amplify-gambleapp-staging-175710",
+      "StackId": "arn:aws:cloudformation:eu-north-1:543933042118:stack/amplify-gambleapp-staging-175710/2a0b5750-36de-11ee-8289-06d977299ff8",
+      "AmplifyAppId": "divdmoqunxhtw",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-gambleapp-staging-175710-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "GambleApp": {},
+        "gambleapp": {}
+      },
+      "function": {
+        "userfunction": {
+          "deploymentBucketName": "amplify-gambleapp-staging-175710-deployment",
+          "s3Key": "amplify-builds/userfunction-38764558713661495745-build.zip"
+        }
+      },
+      "storage": {
+        "userdb": {}
+      },
+      "api": {
+        "gambleapi": {},
+        "gambleapp": {}
+      }
+    }
+  }
+}
