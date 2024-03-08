@@ -23,3 +23,7 @@ This mobile application, developed from June to July 2023, offers users the oppo
 # Getting Started:
 * run "npm install"
 * run "npm start"
+
+<div style="display: flex; justify-content: space-around; align-items: center;">
+  <img src="assets/Gambleapp.png" alt="First Screen" width="200" height="500">
+</div>
